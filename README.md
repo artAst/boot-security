@@ -9,7 +9,7 @@ A simple auth project ready for usage with **JWT (JSON Web Token)**, **Spring Se
 
 Requirements
 ------
-This demo is build with with Maven 3 and Java 1.8.
+This project is build with with Maven 3 and Java 1.8.
 
 
 Usage
