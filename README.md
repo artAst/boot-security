@@ -1,13 +1,16 @@
 # Spring boot JWT Spring Security
-
-##About
+=====
+#About
+------
 A simple auth project ready for usage with **JWT (JSON Web Token)**, **Spring Security** and
 **Spring Boot**.
 
-##Requirements
+#Requirements
+------
 This demo is build with with Maven 3 and Java 1.8.
 
-##Usage
+#Usage
+------
 Just start the application with the Spring Boot maven plugin (`mvn spring-boot:run`). The application is
 running at [http://localhost:8080](http://localhost:8080).
 
@@ -28,12 +31,12 @@ There are three endpoints that are reasonable for the demo:
 
 The Javascript client accessess the API above.
 
-###Generating password hash for new users
-
+#Generating password hash for new users
+------
 I'm using [bcrypt](https://en.wikipedia.org/wiki/Bcrypt) to encode passwords. Your can generate your hashes with this simple tool: [Bcrypt Generator](https://www.bcrypt-generator.com)
 
-###Using another database
-
+#Using another database
+------
 The current database is an embedded H2 database that is automatically configured by Spring Boot. If you want to connect to another database you have to specify the connection in the *application.properties* in the resource directory. Here is an example for a MySQL DB:
 
 ```
